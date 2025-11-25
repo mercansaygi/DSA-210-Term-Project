@@ -26,7 +26,17 @@ To statistically validate the relationships in the dataset, the following hypoth
 
 * **H0 (Null):** **"Politics Affects Education":** There is no difference in female school enrollment rates among Right, Left, and Center-governed countries.
 * **H1 (Alternative):** Political ideology significantly impacts female education levels.
-4) Variables
+
+
+4)Finding and Insights
+
+Preliminary analysis and hypothesis testing have revealed:
+* **Geography Matters:** Statistical tests confirm a significant income gap between continents, highlighting that geography is a key predictor of development.
+* **Economy Drive Health:** A strong positive correlation was found between GDP and Life Expectancy, confirming that economic power directly translates to public health.
+* **Education is Structural:** Surprisingly, political ideology (Right vs. Left) was found to have **no statistically significant impact** on female school enrollment rates, suggesting that education is driven more by economic development than political rhetoric.
+
+  
+5) Variables
 
 Main independent variable:
 Gender Secondary-Education Gap (25+) — the difference between the male and female percentages with secondary education among adults aged 25+. (Positive values mean men’s attainment is higher than women’s.)
@@ -45,7 +55,7 @@ Filtering / Quality variables:
 Winning Vote Share (%) — if the winning party’s share is > 90%, I exclude that election as likely non-democratic (data cleaning rule).
 Democracy quality index (e.g., EIU/V-Dem) — used to restrict/weight the sample to democratic contexts.
 
-5) Data 
+6) Data 
 
 UNDP Data Center:
 
@@ -61,7 +71,7 @@ Party ideology coding (for left/right labeling).
 
 Country–continent mapping (World Bank/ISO).
 
-6) Limitations
+7) Limitations
 
 Cross-national left/right labels can be noisy; I will document coding rules.
 
