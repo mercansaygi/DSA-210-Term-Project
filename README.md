@@ -13,10 +13,19 @@ Gender equality in education is linked to civic participation and policy prefere
 
 3) Hypotheses
 
-H0 (Null): The gender gap in secondary education (25+) is unrelated to whether a country is governed by left vs. right parties.
+To statistically validate the relationships in the dataset, the following hypotheses are tested using ANOVA, T-Tests, and Pearson Correlation:
 
-H1 (Alternative): Countries with smaller gender gaps in secondary education (25+) are more likely to be governed by left-leaning parties, controlling for development and region.
+* **H0 (Null):** The gender gap in secondary education is unrelated to whether a country is governed by left vs. right parties.
+* **H1 (Alternative):** Countries with smaller gender gaps are more likely to be governed by left-leaning parties.
 
+* **H0 (Null):** **"Geography is Destiny":** There is no significant difference in GDP per capita across different continents.
+* **H1 (Alternative):** Economic wealth varies significantly by continent, suggesting structural/geographic inequalities.
+
+* **H0 (Null):** **"Money Buys Health":** There is no correlation between a country's GDP and its Life Expectancy.
+* **H1 (Alternative):** Higher GDP is strongly correlated with longer life expectancy.
+
+* **H0 (Null):** **"Politics Affects Education":** There is no difference in female school enrollment rates among Right, Left, and Center-governed countries.
+* **H1 (Alternative):** Political ideology significantly impacts female education levels.
 4) Variables
 
 Main independent variable:
