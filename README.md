@@ -28,7 +28,7 @@ To statistically validate the relationships in the dataset, the following hypoth
 * **H1 (Alternative):** Political ideology significantly impacts female education levels.
 
 
-4)Finding and Insights
+4) Finding and Insights
 
 Preliminary analysis and hypothesis testing have revealed:
 * **Geography Matters:** Statistical tests confirm a significant income gap between continents, highlighting that geography is a key predictor of development.
